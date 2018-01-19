@@ -1,0 +1,28 @@
+var workshops=[
+{name: "Robotics workshop", image: "http://www.robosoftsystems.co.in/img/workshop/school_homepage.gif",mobile:"1234567890"},
+{name: "Embeded Workshop", image: "http://turnupworld.com/admin/image/22May2016020530embedx.gif",mobile:"1234567890"},
+{name: "entrepreneur workshop", image: "http://4.bp.blogspot.com/-GgW3juzzUfs/UQhqOUOP86I/AAAAAAABA8E/Kxvb9nsz6QU/s1600/Screenshot+2013-01-29+at+6.22.23+PM.png",mobile:"1234567890"},
+]
+
+Workshop.remove({name: "entrepreneur workshop"},function(err,data){
+//     if(err){ console.log(err)}
+//        else{console.log("workshop deleted");}
+//        Workshop.find({},function(err,data){
+//                 if(err){ console.log(err)}
+//                 else{console.log("All workshops :");
+//                 console.log(data);} 
+// })
+// });
+
+Workshop.create( {name: "entrepreneur workshop", image: "http://4.bp.blogspot.com/-GgW3juzzUfs/UQhqOUOP86I/AAAAAAABA8E/Kxvb9nsz6QU/s1600/Screenshot+2013-01-29+at+6.22.23+PM.png",mobile:"1234567890"},
+// function(err,data){
+//     if(err){ console.log(err)}
+//     else{console.log("new workshop added");
+//     console.log(data);
+//     Workshop.find({},function(err,data){
+//         if(err){ console.log(err)}
+//         else{console.log("All workshops :");
+//         console.log(data);}
+
+//     })}
+// })
