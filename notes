@@ -26,3 +26,5 @@ Workshop.create( {name: "entrepreneur workshop", image: "http://4.bp.blogspot.co
 
 //     })}
 // })
+
+Learn Associations with Mongodb
